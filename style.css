@@ -1,0 +1,67 @@
+:root{
+ --indigo:#6366f1;
+}
+
+body{
+ margin:0;
+ font-family:Arial;
+ background:#eef2ff;
+}
+
+#auth{
+ height:100vh;
+ display:flex;
+ flex-direction:column;
+ justify-content:center;
+ align-items:center;
+ gap:12px;
+}
+
+input{
+ padding:12px;
+ width:220px;
+ border-radius:10px;
+ border:none;
+}
+
+button{
+ background:var(--indigo);
+ color:white;
+ border:none;
+ padding:10px 18px;
+ border-radius:10px;
+ cursor:pointer;
+}
+
+header{
+ padding:20px;
+ display:flex;
+ justify-content:space-between;
+}
+
+main{
+ padding:20px;
+ display:grid;
+ grid-template-columns:repeat(auto-fill,150px);
+ gap:20px;
+}
+
+.card{
+ background:white;
+ padding:15px;
+ border-radius:15px;
+ text-align:center;
+ box-shadow:0 5px 10px rgba(0,0,0,.1);
+}
+
+.card img{
+ width:40px;
+ height:40px;
+}
+
+#admin{
+ background:white;
+ margin:20px;
+ padding:15px;
+ border-radius:15px;
+}
